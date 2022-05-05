@@ -4,7 +4,7 @@ This project contains the source code described in 'Weakly supervised attention-
 
 This code is an example of how to use Two-WAM to produce instances for a multiple instance learning method. It uses the [Citrus Pest Benchmark](https://github.com/edsonbollis/Citrus-Pest-Benchmark) in the training process. The weakly supervised multi-instance learning code presents a way to classify tiny regions of interest (ROIs) through a convolutional neural network, a selection strategy based on saliency maps, a weighted evaluation method, and attention-based models.
 
-![Mite Images](https://github.com/edsonbollis/Attention-based-MIL-Guided/blob/master/pipeline_Attention-based_MIL-Guided.png)
+![Mite Images](https://github.com/edsonbollis/Attention-based-MIL-Guided/blob/main/pipeline_Attention-based_MIL-Guided.png)
 
 Our method consists of four steps. In Step 1, we train an attention-based CNN (initially trained on the ImageNet) on the Citrus
 Pest Benchmark. In Step 2, we automatically generate multiple patches regarding saliency maps. In Step 3, we train other
